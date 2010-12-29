@@ -3,7 +3,8 @@ source :rubygems
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem "dalli"
+gem 'memcache-client'
+gem 'dalli'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
